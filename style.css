@@ -275,6 +275,21 @@ h1:hover,h2:hover
     grid-template-columns: 70% 50%;
     margin: 40px 0;
 }
+.offer-item--left
+{
+    grid-template-areas: 
+    "img p";
+    grid-template-columns: 1fr 70%;
+}
+.offer-item--left p
+{
+    grid-area: p;
+    margin-left: 20px;
+}
+.offer-item--left img
+{
+    grid-area: img;
+}
 .offer-item img
 {
     width: 600px;
